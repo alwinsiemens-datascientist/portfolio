@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Alwin Siemens — Data Scientist</title>
+  <meta name="description" content="Portfolio of Alwin Siemens — Data Scientist. Projects, skills, and contact." />
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Alwin Siemens</h1>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Hi, I'm <strong>Alwin Siemens</strong></h2>
+          <p>Data scientist building ML systems and clear data stories to help teams make better decisions.</p>
+          <p class="meta">Python • Machine Learning • Data Visualization • MLOps</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&s=5f0b0f75b747a2f4b6f182a3b2d6c6b6" alt="Abstract data visualization"/>
+        </div>
+      </div>
+    </section>
+
+    <section class="container about" id="about">
+      <h3>About</h3>
+      <p>I’m a data scientist specializing in end-to-end machine learning and production-ready analytics. I combine statistical rigor with engineering best practices to deliver reliable models and clear dashboards. I enjoy exploring datasets, crafting features, and collaborating with stakeholders to turn insights into impact.</p>
+      <p>Currently open to contract and full-time opportunities.</p>
+    </section>
+
+    <section class="container projects" id="projects">
+      <h3>Selected Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Churn Prediction Pipeline</h4>
+          <p>Built production pipeline for predicting customer churn using feature store + model monitoring. Reduced churn by targeted interventions.</p>
+          <p class="muted">Python • scikit-learn • Airflow • Docker</p>
+        </article>
+
+        <article class="card">
+          <h4>Interactive Dashboard</h4>
+          <p>Created an interactive sales analytics dashboard with complex filters and visual storytelling for executives.</p>
+          <p class="muted">Tableau • Plotly • Dash</p>
+        </article>
+
+        <article class="card">
+          <h4>Time Series Forecasting</h4>
+          <p>Implemented probabilistic forecasting models for inventory planning, improving forecast accuracy and reducing stockouts.</p>
+          <p class="muted">Prophet • ARIMA • PyTorch</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container skills" id="skills">
+      <h3>Skills</h3>
+      <ul class="skill-list">
+        <li>Python, R</li>
+        <li>scikit-learn, XGBoost, LightGBM</li>
+        <li>Deep Learning (PyTorch, TensorFlow)</li>
+        <li>SQL, BigQuery</li>
+        <li>Data Viz: Plotly, Tableau</li>
+        <li>MLOps: Docker, Airflow, CI/CD</li>
+      </ul>
+    </section>
+
+    <section class="container contact" id="contact">
+      <h3>Contact</h3>
+      <p>If you'd like to work together, please reach out — I typically reply within 2 business days.</p>
+      <form id="contactForm" class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button class="btn primary" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Alwin Siemens — Data Scientist. • <a href="#">Resume</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
