@@ -4,7 +4,7 @@
   --muted: #9aa4b2;
   --accent: #00bcd4;
   --text: #e6eef6;
-  --glass: rgba(255, 255, 255, 0.03);
+  --glass: rgba(255, 255, 255, 0.05);
   --radius: 12px;
 }
 
@@ -121,12 +121,17 @@ body {
 .about,
 .projects,
 .skills,
-.contact {
+.contact,
+.journey {
   background: var(--glass);
   margin-top: 2rem;
   padding: 1.6rem;
   border-radius: var(--radius);
   border: 1px solid rgba(255, 255, 255, 0.02)
+}
+
+.journey li {
+  margin-bottom: .4rem;
 }
 
 .projects .grid {
@@ -136,10 +141,16 @@ body {
   margin-top: 1rem
 }
 
-.card {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent);
+.projects a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+.projects .card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent);
   padding: 1rem;
-  border-radius: 10px
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.10)
 }
 
 .muted {

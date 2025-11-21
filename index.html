@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -7,12 +8,14 @@
   <meta name="description" content="Portfolio of Alwin Siemens — Data Scientist. Projects, skills, and contact." />
   <link rel="stylesheet" href="assets/styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <h1 class="brand">Alwin Siemens (B. Sc.)</h1>
       <nav class="nav" id="nav">
         <a href="#about">About</a>
+        <a href="#journey">Journey</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
@@ -34,80 +37,97 @@
           </div>
         </div>
         <div class="hero-card">
-          <img src="assets/alwin.jpg" alt="Abstract data visualization"/>
+          <img src="assets/alwin.jpg" alt="Abstract data visualization" />
         </div>
       </div>
     </section>
 
     <section class="container about" id="about">
-      <h3>About me</h3>
+      <h2>About me</h2>
       <p>I’m a Data Scientist with a Bachelor's degree specialized in Computer Vision Tasks.</p>
-      <p>My Passion is to deliver functional, good looking products to customers while having a maintainable codebase.</p>
+      <p>My Passion is to deliver functional, good looking products to customers while having a maintainable codebase.
+      </p>
       <p>Currently I am open to contract with full-time opportunities.</p>
     </section>
 
-    <section class="container about" id="about">
-      <h3>My Foundational Journey</h3>
-      <p>During my studies in Data Science at TH OWL, I developed a strong foundation in various aspects of computer science: </p>
+    <section class="container journey" id="journey">
+      <h2>My Foundational Journey</h2>
+      <p>During my studies in Data Science at TH OWL, I developed a strong foundation in various aspects of computer
+        science: </p>
       <ul>
-        <li>Grundlagen in Mathematik und Statistik</li>    
-        <li>Objektorientierte und Prozedurale Programmierung</li>
-        <li>Erfahrungen in Python, C#, Javascript, Java, SQL</li>
-        <li>Erfahrungen mit Pytorch, Pandas und Matplotlib</li>
-        <li>Erfahrungen mit Machine Learning in Supervised und Unsupervised Learning (Im Kontext von Computer Vision)</li>
-        <li>Erfahrung mit Bilddaten, Tabellendaten, Geodaten</li>
-        <li>Erfahrung in Mobiler App Entwicklung mit MAUI, Android Studio und React Native</li>
-        <li>Erfahrung in Memory-Usage und Code-Performance Optimierungen</li>
-        <li>Erfahrung in der Integration von LLM-Api's in die eigene Anwendung</li>
-        <li>Softskills in Zeitmanagement, Projektmanagement und Präsentationen</li>
+        <li>Fundamentals in Mathematics and Statistics</li>
+        <li>Object-Oriented and Procedural Programming</li>
+        <li>Experience in Python, C#, JavaScript, Java, SQL</li>
+        <li>Experience with PyTorch, Pandas, and Matplotlib</li>
+        <li>Experience in Machine Learning in Supervised and Unsupervised Learning (in the context of Computer Vision)
+        </li>
+        <li>Experience with Image Data, Tabular Data, and Geodata</li>
+        <li>Experience in Mobile App Development with .NET MAUI, Android Studio (Java), and React Native (JavaScript)
+        </li>
+        <li>Experience in Optimizing Memory Usage and Code Performance in Python</li>
+        <li>Experience in Integrating LLM APIs into Own Applications</li>
+        <li>Soft Skills in Time Management, Project Management, and Presentations</li>
       </ul>
     </section>
 
     <section class="container projects" id="projects">
-      <h3>Selected Projects</h3>
+      <h2>Selected Projects</h2>
       <div class="grid">
         <article class="card">
           <h4>Automated Cropping for better Image Quality in Computer Vision with YOLOv11</h4>
-          <p>Built a Transform Pipeline in Python Pytorch for enhancing the image quality when afterwards detecting object defects.</p>
-          <p class="muted">Python • Pytorch • Linux</p>
+          <p>Built a Transform Pipeline in Python Pytorch for enhancing the image quality when afterwards detecting
+            object defects.</p>
+          <p class="muted">Python • Pytorch • Linux • MLFlow </p>
           <p class="muted">Project by Phoenix Contact</p>
         </article>
 
         <article class="card">
           <h4>Statistical Dashboard for Repair Store for printers</h4>
-          <p>Created an interactive dashboard for managing many printers and their repair intervals. The data produced by this software can lead to predictive maintenance use-cases.</p>
-          <p class="muted">C# • Blazor • SQL</p>
+          <p>Created an interactive dashboard for managing many printers and their repair intervals. The data produced
+            by this software can lead to predictive maintenance use-cases.</p>
+          <p class="muted">C# • Blazor • SQL • Bootstrap</p>
           <p class="muted">Project by Phoenix Contact</p>
         </article>
 
         <article class="card">
           <h4>Replaner Assist for People Planning</h4>
-          <p>A small Mobile App for planning people an amount of people for recurrent tasks. Automated Messages to whatsapp and reminders.</p>
-          <p class="muted">Javascript • React Native • NoSQL • Expo</p>
+          <p>A small Mobile App for planning people an amount of people for recurrent tasks. Automated Messages to
+            whatsapp and reminders.</p>
+          <p class="muted">Javascript • React Native • JSON • Expo</p>
           <p class="muted">Project by Me</p>
         </article>
 
         <article class="card">
           <h4>Fuelprices Dashboard</h4>
-          <a href="https://github.com/alwinsiemensDSDS/Benzinpreise">Link zu Github</a>
           <p>An interactive Webapp to look after the next fuel stop with the best price.</p>
           <p class="muted">Python• Streamlit • RestAPI • Tankerkoenig API</p>
           <p class="muted">Project by TH OWL</p>
+          <a href="https://github.com/alwinsiemensDSDS/Benzinpreise" target="_blank">Link zu Github</a>
+          <br />
+          <a href="https://benzinpreise-jtqng8xt14a.streamlit.app/" target="_blank">Link zu Demo</a>
         </article>
 
         <article class="card">
           <h4>BLE Autologout</h4>
-          <a href="https://github.com/alwinsiemensDSDS/BLE_Autologout_Android">Autologout (Android side App)</a>
-          <a href="https://github.com/alwinsiemensDSDS/BLE_Autologout_Windows">Autologout (Windows side App)</a>
-          <p>A mobile App that connects to your Windows PC over Bluetooth Low Energy and uses the signal strength to automatically locks your windows screen, when leaving the office.</p>
+          <p>A mobile App that connects to your Windows PC over Bluetooth Low Energy and uses the signal strength to
+            automatically locks your windows screen, when leaving the office.</p>
           <p class="muted">Java • Mobile App Dev • C# • WPF • Bluetooth Low Energy </p>
           <p class="muted">Project by TH OWL</p>
+          <a href="https://github.com/alwinsiemensDSDS/BLE_Autologout_Android" target="_blank">Link zu Github</a>
+        </article>
+
+        <article class="card">
+          <h4>Research Project: LLM for Circuits</h4>
+          <p>A research project in a group of three student for evaluating GPT4 if its understands the physical concepts
+            in an electrical circuit.</p>
+          <p class="muted">Python • GPT-4 • LLM • OpenAI API </p>
+          <p class="muted">Project by TH OWL and Fraunhofer IOSB-INA</p>
         </article>
       </div>
     </section>
 
     <section class="container skills" id="skills">
-      <h3>Skills</h3>
+      <h2>Skills</h2>
       <ul class="skill-list">
         <li>Python</li>
         <li>scikit-learn</li>
@@ -129,36 +149,26 @@
         <li>Blazor</li>
         <li>.NET MAUI</li>
         <li>Java</li>
+        <li>Bluetooth and BLE</li>
+        <li>OPC UA</li>
+        <li>NodeRED</li>
       </ul>
     </section>
 
     <section class="container contact" id="contact">
-      <h3>Contact</h3>
-      <p>If you'd like to work together, please reach out and message me on <a style="color: white;" href="https://www.linkedin.com/in/alwin-siemens-762974204/">LinkedIn</a>.</p>
-      <!-- <form id="contactForm" class="contact-form">
-        <label>
-          Name
-          <input type="text" name="name" required>
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required>
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-        <button class="btn primary" type="submit">Send</button>
-      </form> -->
+      <h2>Contact me on <a style="color: var(--accent);"
+          href="https://www.linkedin.com/in/alwin-siemens-762974204/" target="_blank">LinkedIn</a></h2>
+      <p>If you'd like to work together, please reach out and send me a message 😉</p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Alwin Siemens — Data Scientist. • <a href="#">Resume</a></p>
+      <p>© <span id="year"></span> Alwin Siemens</p>
     </div>
   </footer>
 
   <script src="assets/script.js"></script>
 </body>
+
 </html>
