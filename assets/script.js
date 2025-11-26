@@ -20,4 +20,19 @@ document.addEventListener('DOMContentLoaded',function(){
       form.reset();
     });
   }
+
+  // Timeline interactivity: click to focus an item
+  const timelineItems = document.querySelectorAll('.timeline-item');
+  if(timelineItems && timelineItems.length){
+    // set first as active by default
+    timelineItems[0].classList.add('active');
+    timelineItems.forEach(item=>{
+      item.addEventListener('click',()=>{
+        timelineItems.forEach(i=>i.classList.remove('active'));
+        item.classList.add('active');
+        // scroll into view a bit (smooth)
+        item.scrollIntoView({behavior:'smooth',block:'center'});
+      });
+    });
+  }
 });

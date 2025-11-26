@@ -13,13 +13,13 @@
   <header class="site-header">
     <div class="container header-inner">
       <h1 class="brand">Alwin Siemens (B. Sc.)</h1>
-      <nav class="nav" id="nav">
+      <!-- <nav class="nav" id="nav">
         <a href="#about">About</a>
         <a href="#journey">Journey</a>
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-      </nav>
+      </nav> -->
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
     </div>
   </header>
@@ -45,9 +45,9 @@
     <section class="container about" id="about">
       <h2>About me</h2>
       <p>I’m a Data Scientist with a Bachelor's degree specialized in Computer Vision Tasks.</p>
-      <p>My Passion is to deliver functional, good looking products to customers while having a maintainable codebase.
+      <p>My passion is delivering functional, visually appealing products to customers while maintaining a clean and sustainable codebase..
       </p>
-      <p>Currently I am open to contract with full-time opportunities.</p>
+      <p>Currently I am open to contract.</p>
     </section>
 
     <section class="container journey" id="journey">
@@ -70,36 +70,74 @@
       </ul>
     </section>
 
+    <section class="container journey" id="journey">
+        <h3>Work Experience</h3>
+        <div class="timeline" aria-label="Career and learning timeline">
+
+          <div class="timeline-item">
+            <div>
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">07/2021-01/2024</div>
+            </div>
+            
+            <div class="timeline-content">
+              <h4>Apprenticeship as Computer Science Expert</h4>
+              <p class="muted">Phoenix Contact GmbH & Co. KG.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">01/2024-08/2025</div>
+            <div class="timeline-content">
+              <h4>Working Student in the field of Data-Driven Apps and Computer Vision Tasks</h4>
+              <p class="muted">Phoenix Contact GmbH & Co. KG.</p>
+            </div>
+          </div>
+        </div>  
+        <h3>Learning path</h3>
+        <div class="timeline" aria-label="Career and learning timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">09/2022-08/2025</div>
+            <div class="timeline-content">
+              <h4>B.Sc. Data Science</h4>
+              <p class="muted">TH OWL — University of Applied Sciences.</p>
+            </div>
+          </div>
+        </div>
+          
+      </section>
+
     <section class="container projects" id="projects">
       <h2>Selected Projects</h2>
       <div class="grid">
         <article class="card">
-          <h4>Automated Cropping for better Image Quality in Computer Vision with YOLOv11</h4>
-          <p>Built a Transform Pipeline in Python Pytorch for enhancing the image quality when afterwards detecting
-            object defects.</p>
+          <h4>Automated Cropping for Better Image Quality in Computer Vision with YOLOv11</h4>
+          <p>Built a transformation pipeline in Python with PyTorch to enhance image quality for downstream object defect detection.</p>
           <p class="muted">Python • Pytorch • Linux • MLFlow </p>
           <p class="muted">Project by Phoenix Contact</p>
         </article>
 
         <article class="card">
-          <h4>Statistical Dashboard for Repair Store for printers</h4>
-          <p>Created an interactive dashboard for managing many printers and their repair intervals. The data produced
-            by this software can lead to predictive maintenance use-cases.</p>
+          <h4>Statistical Dashboard for industrial printer repair management</h4>
+          <p>Created an interactive dashboard for managing many printers and their repair intervals. The data generated
+            by this software can enable predictive maintenance use cases.</p>
           <p class="muted">C# • Blazor • SQL • Bootstrap</p>
           <p class="muted">Project by Phoenix Contact</p>
         </article>
 
         <article class="card">
           <h4>Replaner Assist for People Planning</h4>
-          <p>A small Mobile App for planning people an amount of people for recurrent tasks. Automated Messages to
-            whatsapp and reminders.</p>
+          <p>A small mobile app for planning the allocation of people to recurring tasks, including automated WhatsApp messages, ICS Generation and reminders.</p>
           <p class="muted">Javascript • React Native • JSON • Expo</p>
           <p class="muted">Project by Me</p>
         </article>
 
         <article class="card">
           <h4>Fuelprices Dashboard</h4>
-          <p>An interactive Webapp to look after the next fuel stop with the best price.</p>
+          <p>An interactive web app to help users find the next fuel stop with the best price.</p>
           <p class="muted">Python• Streamlit • RestAPI • Tankerkoenig API</p>
           <p class="muted">Project by TH OWL</p>
           <a href="https://github.com/alwinsiemensDSDS/Benzinpreise" target="_blank">Link zu Github</a>
@@ -109,8 +147,7 @@
 
         <article class="card">
           <h4>BLE Autologout</h4>
-          <p>A mobile App that connects to your Windows PC over Bluetooth Low Energy and uses the signal strength to
-            automatically locks your windows screen, when leaving the office.</p>
+          <p>A mobile app that connects to your Windows PC over Bluetooth Low Energy and uses signal strength to automatically lock your Windows screen when leaving the office.</p>
           <p class="muted">Java • Mobile App Dev • C# • WPF • Bluetooth Low Energy </p>
           <p class="muted">Project by TH OWL</p>
           <a href="https://github.com/alwinsiemensDSDS/BLE_Autologout_Android" target="_blank">Link zu Github</a>
@@ -118,8 +155,7 @@
 
         <article class="card">
           <h4>Research Project: LLM for Circuits</h4>
-          <p>A research project in a group of three student for evaluating GPT4 if its understands the physical concepts
-            in an electrical circuit.</p>
+          <p>A research project conducted by a group of three students to evaluate whether GPT-4 understands the physical concepts in an electrical circuit.</p>
           <p class="muted">Python • GPT-4 • LLM • OpenAI API </p>
           <p class="muted">Project by TH OWL and Fraunhofer IOSB-INA</p>
         </article>
@@ -154,6 +190,8 @@
         <li>NodeRED</li>
       </ul>
     </section>
+
+      
 
     <section class="container contact" id="contact">
       <h2>Contact me on <a style="color: var(--accent);"

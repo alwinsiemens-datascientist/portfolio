@@ -230,3 +230,34 @@ body {
     grid-template-columns: 1fr
   }
 }
+
+/* Timeline styles */
+.timeline{
+  position:relative;
+  padding:1rem 0 0 2rem;
+  border-left:6px solid rgba(255,255,255,0.04);
+  margin-top:1rem;
+  margin-left:1.5rem
+}
+.timeline-item{
+  position:relative;
+  padding:1rem 1.2rem;
+  margin-bottom:0.6rem;
+}
+.timeline-dot{
+  position:absolute;
+  left:-42px;
+  top:19px;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:var(--accent);
+  box-shadow:0 0 0 4px rgba(0,188,212,0.08);
+}
+.timeline-date{font-weight:700;color:var(--muted);font-size:.95rem;margin-bottom:.3rem}
+/* .timeline-content{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:.8rem;border-radius:10px;border:1px solid rgba(255,255,255,0.02)} */
+
+@media (max-width:700px){
+  .timeline{padding-left:1rem;border-left:2px solid rgba(255,255,255,0.03)}
+  .timeline-dot{left:-11px}
+}
