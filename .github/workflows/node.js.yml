@@ -18,6 +18,17 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
+    - name: Setup git
+      run: |
+        git config --global user.email $env:GIT_EMAIL
+        git config --global user.name $env:GIT_USER
+        git config --global credential.helper "!f() { echo \`"username=`${GIT_USER}`npassword=`${GIT_PASS}\`"; }; f"
+      shell: pwsh
+      env:
+        GIT_USER: "jessehouwing"
+        GIT_EMAIL: "jesse.houwing@gmail.com"
+        GIT_PASS: ${{ secrets.ACTION_DEPLOY_ACCESS_TOKEN }}
+
     - name: Checkout repository
       uses: actions/checkout@v2
 
@@ -41,5 +52,5 @@ jobs:
       env:
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.ACTION_DEPLOY_ACCESS_TOKEN }}
         repository: ${{ github.repository }}
