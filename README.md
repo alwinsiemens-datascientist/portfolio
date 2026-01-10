@@ -7,8 +7,8 @@ This repository contains a personal portfolio site as React app built with Vite.
 ## Technologies
 
 - Vite (dev server and build)
-- React 18
-- JavaScript (JSX)
+- React
+- gh-pages 
 - Static styling: `assets/styles.css`
 - Static assets in `assets/` (images, etc.)
 
