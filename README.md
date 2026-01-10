@@ -62,38 +62,7 @@ npm run preview
 
 Two common options are described below. Replace `<GITHUB_USERNAME>` and `<REPO_NAME>` with your values.
 
-Option A — Publish `dist/` using `gh-pages` package (simple)
-
-1. Install `gh-pages` as a dev dependency:
-
-```bash
-npm install --save-dev gh-pages
-```
-
-2. Add a `homepage` entry to `package.json` (optional but helpful):
-
-```json
-"homepage": "https://github.com/alwinsiemens-datascientist/portfolio/"
-```
-
-3. Add deploy scripts to `package.json`:
-
-```json
-"scripts": {
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d dist"
-}
-```
-
-4. Run deploy:
-
-```bash
-npm run deploy
-```
-
-Notes: If your site will be served from `https://<GITHUB_USERNAME>.github.io/<REPO_NAME>/` you should set the Vite `base` option to `/<REPO_NAME>/` (see vite.config.js), or build with `vite build --base /<REPO_NAME>/` so asset paths are correct.
-
-Option B — Use GitHub Actions to build and push `dist/` to `gh-pages`
+Use GitHub Actions to build and push `dist/` to `gh-pages`
 
 - Create a GitHub Actions workflow that runs `npm ci && npm run build` and pushes `dist/` to the `gh-pages` branch. This is a robust approach for CI-backed deployment.
 
