@@ -2,7 +2,7 @@
 
 # Portfolio (Alwin Siemens)
 
-This repository contains a small personal portfolio site that was converted from a static HTML site into a React app built with Vite.
+This repository contains a personal portfolio site as React app built with Vite.
 
 ## Technologies
 
@@ -60,17 +60,5 @@ npm run preview
 
 ## Deploy to GitHub Pages
 
-Two common options are described below. Replace `<GITHUB_USERNAME>` and `<REPO_NAME>` with your values.
-
-Use GitHub Actions to build and push `dist/` to `gh-pages`
-
-- Create a GitHub Actions workflow that runs `npm ci && npm run build` and pushes `dist/` to the `gh-pages` branch. This is a robust approach for CI-backed deployment.
-
-## Notes & tips
-
-- Keep `assets/styles.css` and `assets/*` as-is to preserve the existing look.
-- If you change the repository name or serve from a custom domain, update the `base` in `vite.config.js` and the `homepage` accordingly.
-- For a SPA with client-side routing you would need additional config to handle refreshes; this project uses simple anchor links and static sections.
-
-If you want, I can add a `deploy` script now (update `package.json`), or create a GitHub Actions workflow for automatic deployment.
+Deployment via Github Actions
 
