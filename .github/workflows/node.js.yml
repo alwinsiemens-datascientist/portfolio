@@ -18,15 +18,6 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - name: Setup git
-      run: |
-        git config --global user.email $env:GIT_EMAIL
-        git config --global user.name $env:GIT_USER
-      shell: pwsh
-      env:
-        
-        
-
     - name: Checkout repository
       uses: actions/checkout@v2
 
