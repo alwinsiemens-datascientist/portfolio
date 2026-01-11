@@ -8,7 +8,7 @@ export default function Hero() {
           <h2>
             Hi, I'm <strong>Alwin Siemens (B. Sc.)</strong>
           </h2>
-          <p>Fullstack Developer with a heart for ML Systems</p>
+          <p>Software Developer with a heart for ML Systems</p>
           <div className="cta-row">
             <a className="btn primary" href="#projects">
               View Projects
