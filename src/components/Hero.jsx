@@ -19,7 +19,7 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-card">
-          <img src="assets/generated-image (3).png" alt="Abstract data visualization" />
+          <img src="assets/alwin.png" alt="Abstract data visualization" />
         </div>
       </div>
     </section>
