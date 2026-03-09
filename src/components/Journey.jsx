@@ -44,7 +44,7 @@ export default function Journey() {
             <div className="timeline-dot"></div>
             <div className="timeline-date">01/2024-08/2025</div>
             <div className="timeline-content">
-              <h4>Working Student in the field of Data-Driven Apps and Computer Vision Tasks</h4>
+              <h4>Working Student in the field of Data-Driven Apps and Computer Vision</h4>
               <p className="muted">Phoenix Contact GmbH & Co. KG.</p>
             </div>
           </div>
@@ -56,8 +56,16 @@ export default function Journey() {
             <div className="timeline-dot"></div>
             <div className="timeline-date">09/2022-08/2025</div>
             <div className="timeline-content">
-              <h4>B.Sc. Data Science</h4>
+              <h4>B. Sc. Data Science</h4>
               <p className="muted">TH OWL — University of Applied Sciences.</p>
+            </div>
+          </div>
+          <div className="timeline-item">
+            <div className="timeline-dot"></div>
+            <div className="timeline-date">will start in 04/2026</div>
+            <div className="timeline-content">
+              <h4>M. Sc. Data Science</h4>
+              <p className="muted">Fernuniversität in Hagen - Campus Hannover</p>
             </div>
           </div>
         </div>

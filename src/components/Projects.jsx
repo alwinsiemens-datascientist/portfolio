@@ -36,6 +36,16 @@ export default function Projects() {
         </article>
 
         <article className="card">
+          <h4>Phoenix Contact AES Quiz</h4>
+          <p>
+            A quiz app for training the employees of Phoenix Contact on the topic of AES (All Electric Society). 
+            The quiz was accessible via a QR code, was built with Angular and hosted on a Raspberry Pi.
+          </p>
+          <p className="muted">Javascript • Angular • Raspberry Pi • SCSS</p>
+          <p className="muted">Project by Phoenix Contact</p>
+        </article>
+
+        <article className="card">
           <h4>Fuelprices Dashboard</h4>
           <p>An interactive web app to help users find the next fuel stop with the best price.</p>
           <p className="muted">Python• Streamlit • RestAPI • Tankerkoenig API</p>

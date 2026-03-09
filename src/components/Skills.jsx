@@ -4,11 +4,33 @@ export default function Skills() {
   return (
     <section className="skills" id="skills">
       <h2>Skills</h2>
+      <h3>Programming Languages</h3>
       <ul className="skill-list">
         <li>Python</li>
+        <li>C#</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>SQL</li>
+      </ul>
+      
+      <h3>Frameworks and Libraries</h3>
+      <ul className="skill-list">
+        <li>Pandas</li>
+        <li>Flask</li>
+        <li>Streamlit</li>
+        <li>Blazor</li>
+        <li>.NET MAUI</li>
+        <li>Angular</li>
+        <li>React</li>
+        <li>Next.JS</li>
+        <li>Hugging Face</li>
         <li>scikit-learn</li>
         <li>PyTorch</li>
-        <li>SQL</li>
+        <li>OpenCV</li>
+      </ul>
+
+      <h3>Other Skills</h3>
+      <ul className="skill-list">
         <li>JSON</li>
         <li>Plotly</li>
         <li>Streamlit</li>
