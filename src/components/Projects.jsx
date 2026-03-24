@@ -32,7 +32,7 @@ export default function Projects() {
             messages, ICS Generation and reminders.
           </p>
           <p className="muted">Javascript • React Native • JSON • Expo</p>
-          <p className="muted">Project by Me</p>
+          <p className="muted">Project by Me (currently in working)</p>
         </article>
 
         <article className="card">
@@ -74,6 +74,26 @@ export default function Projects() {
           </p>
           <p className="muted">Python • GPT-4 • LLM • OpenAI API </p>
           <p className="muted">Project by TH OWL and Fraunhofer IOSB-INA</p>
+        </article>
+
+        <article className="card">
+          <h4>X2CNC - AI assisted Low Code CAM</h4>
+          <p>
+            X2CNC is a low code CAM software that uses AI to generate CNC code from different sources. The software is designed to
+            be user-friendly and accessible to users with little to no experience in CNC programming. The software is currently in development and is expected to be released in the near future.
+          </p>
+          <p className="muted">C# • Blazor • GRBL • AI • Serial • Mathematics</p>
+          <p className="muted">Project by Me (currently in working)</p>
+        </article>
+
+         <article className="card">
+          <h4>Manuel Lopez Infantes</h4>
+          <p>
+            A portfolio website for Manuel Lopez Infantes, a seller for construction machinery. The website is designed to showcase his products and services, and to provide a way for potential customers to contact him. 
+          </p>
+          <p className="muted">React • Cloudflare • Automatic Deployment</p>
+          <p className="muted">Project by Me</p>
+          <a href="https://manuel-lopez-infantes.de/" target="_blank">Link zu Website</a>
         </article>
       </div>
     </section>
