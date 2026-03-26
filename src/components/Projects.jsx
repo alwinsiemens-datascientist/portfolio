@@ -32,7 +32,7 @@ export default function Projects() {
             messages, ICS Generation and reminders.
           </p>
           <p className="muted">Javascript • React Native • JSON • Expo</p>
-          <p className="muted">Project by Me (currently in working)</p>
+          <p className="muted">Project by Me (currently working on)</p>
         </article>
 
         <article className="card">
@@ -83,7 +83,7 @@ export default function Projects() {
             be user-friendly and accessible to users with little to no experience in CNC programming. The software is currently in development and is expected to be released in the near future.
           </p>
           <p className="muted">C# • Blazor • GRBL • AI • Serial • Mathematics</p>
-          <p className="muted">Project by Me (currently in working)</p>
+          <p className="muted">Project by Me (currently working on)</p>
         </article>
 
          <article className="card">
