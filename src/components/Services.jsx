@@ -12,7 +12,7 @@ const services = [
   {
     icon: '🔧',
     title: 'Creative Workshop',
-    subtitle: 'Milling · Lasering · Printing',
+    subtitle: 'CNC Milling',
     description:
       'Personalized products and custom orders – from idea to finished piece. Open for individual projects.',
     tags: ['CNC Milling', '3D Relief', 'Custom Orders'],
